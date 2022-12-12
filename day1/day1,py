@@ -1,0 +1,8 @@
+print ("Welcome to the ТВОЁ ПОГОНЯЛО НА ЗОНЕ generator\n")
+print ("ТВОЁ ПОГОНЯЛО НА ЗОНЕ " + input("ГОРОД НАЗОВИ БЫСТРО\n") + " " + input("А КЛИКУХА ТВОЕГО ПИТОНА?\n"))
+
+print ("======================================================")
+print ("Welcome to the ТВОЁ ПОГОНЯЛО НА ЗОНЕ generator №2\n")
+name = input("ГОРОД НАЗОВИ БЫСТРО\n")
+namePitona = input("А КЛИКУХА ТВОЕГО ПИТОНА?\n")
+print ("ТВОЁ ПОГОНЯЛО НА ЗОНЕ " + name + " " + namePitona)
