@@ -23,6 +23,42 @@ print("Your BMI = " + str(int(BMI)))
 
 # =============================================================================================================================================
 
+#Cколько тебе осталось жить
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+ULivedMonth = int(age) * 12
+ULivedWeeks = int(age) * 52
+ULievedDays = int(age) * 365
+
+ULeftMonth = 90*12 - ULivedMonth
+ULeftWeeks = 90*52 - ULivedWeeks
+ULeftDays = 90*365 - ULievedDays
+
+print(f"Вам осталось {ULeftDays} дней, {ULeftWeeks} недель, {ULeftMonth} месяцев жить (при расчете что вы сдохнете в 90)")
+
+# years = 90 - int(age)
+# months = years12
+# weeks = years52
+# days = years*365
+
+# print (f"У тебя ещё есть {days} дней, {weeks} недель или {months} месяцев")
+
+# =============================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
