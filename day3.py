@@ -128,5 +128,33 @@ elif int(final_nubmer) > 40 and int(final_nubmer) < 50:
 else:
   print (f"Your score is {final_nubmer}%")
 
+#   print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
+
+# name = (name1 + name2).lower()
+# x = (
+#   name.count("t") + 
+#   name.count("r") + 
+#   name.count("u") + 
+#   name.count("e"))
+
+# y = (
+#   name.count("l") + 
+#   name.count("o") + 
+#   name.count("v") + 
+#   name.count("e")
+# )
+
+# percent = int(str(x) + str(y))
+# print(percent)
+
+# if percent <= 10 or percent >= 90:
+#   print (f"Ваш индекс любви составляет {percent} %, вы подходите друг другу как кола и ментос")
+# elif percent >=40 and percent <= 50:
+#   print (f"Ваш индекс любви составляет {percent} %, вы хорошая пара")
+# else:
+#   print (f"Ваш индекс любви составляет {percent} %")
+  
 # =============================================================================================================================================
 
