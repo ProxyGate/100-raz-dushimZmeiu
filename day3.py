@@ -87,3 +87,46 @@ print (f"Your total bill = {bill}")
 
 # =============================================================================================================================================
 
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+name1_count = 0
+name2_count = 0
+
+name1_low = name1.lower()
+name2_low = name2.lower()
+name1_count += name1_low.count("t")
+name1_count += name1_low.count("r")
+name1_count += name1_low.count("u")
+name1_count += name1_low.count("e")
+
+name2_count += name1_low.count("l")
+name2_count += name1_low.count("o")
+name2_count += name1_low.count("v")
+name2_count += name1_low.count("e")
+
+name1_count += name2_low.count("t")
+name1_count += name2_low.count("r")
+name1_count += name2_low.count("u")
+name1_count += name2_low.count("e")
+
+name2_count += name2_low.count("l")
+name2_count += name2_low.count("o")
+name2_count += name2_low.count("v")
+name2_count += name2_low.count("e")
+
+final_nubmer = int(str(name1_count) + str(name2_count))
+if final_nubmer < 10 or final_nubmer > 90:
+  print (f"Your score is {final_nubmer}%, you go together like coke and mentos")
+elif int(final_nubmer) > 40 and int(final_nubmer) < 50:
+  print (f"Your score is {final_nubmer}%, you are alright together")
+else:
+  print (f"Your score is {final_nubmer}%")
+
+# =============================================================================================================================================
+
