@@ -23,17 +23,14 @@ paint_calc(height=test_h, width=test_w, cover=coverage)
 #Write your code below this line 👇
 
 def prime_checker (number):
-  if n>0:
-    if n % 5 != 0 or n == 5:
-      if n % 3 != 0 or n == 3:
-        if n % 2 != 0 or n == 2:    
-          print("tvoe chislo prostoe")
-        else:
-          print("tvoe chislo sostavnoe")
+  if n>0:      
+    if n % 3 != 0 or n == 3:
+      if n % 2 != 0 or n == 2:    
+        print("tvoe chislo prostoe")
       else:
-        print("tvoe chislo sostavnoe")    
+        print("tvoe chislo sostavnoe")
     else:
-      print("tvoe chislo sostavnoe")
+      print("tvoe chislo sostavnoe")    
   else:
     print("idi naher da s takimi prikolami")
 
