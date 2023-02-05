@@ -50,6 +50,51 @@ print(days)
 
 #====================================================================================================================================================================
 
+#Калькулятор
+from art import logo
+print(logo)
+
+def plus (n1, n2):
+  return n1 + n2
+
+def minus (n1, n2):
+  return n1 - n2
+
+def delim (n1, n2):
+  return n1 / n2
+
+def mnojim (n1, n2):
+  return n1 * n2
+
+
+konec = "nikogda"
+while konec == "nikogda":
+  n1 = int(input("Tvoya pervaya cifra?: "))
+  print("+\n-\n*\n/")
+  operation = input("Che dalshe delat' budem? ")
+  n2 = int(input("Tvoya vtoraya hromosoma(oi) cifra?: "))
+  if operation == "+":
+    q = plus(n1, n2)
+    print(q)
+  elif operation == "-":
+    q = minus(n1, n2)
+    print(q)
+  elif operation == "/":
+    q = delim(n1, n2)
+    print(q)
+  elif operation == "*":
+    q = mnojim(n1, n2)
+    print(q)
+  else:
+    print("Nu ti loh bratishka, takogo net")
+  next = input(f"Dalshe s {q} rabotaem ili nu ego? 'da', 'da nu' ")
+  while next == "da":
+    
+    
+      
+    
+  
+
 
 
 
